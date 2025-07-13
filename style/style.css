@@ -1,3 +1,43 @@
-.banner{
-    background-image: url();
+.primary-button{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border-color: transparent;
+    color: aliceblue;
+  margin: 10px;
+  padding: 10px 15px;
+  border-color: none;
+}
+.button-container{
+
+ display: flex;  
+ justify-content: space-around;
+}
+h2{
+    background-color: aqua;
+    border-radius: 5px;
+    color: rgb(80, 180, 180);
+}
+header{
+    background-image: url("../images/4775334_19366.jpg");
+    width:auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.section-title{
+    
+    color: rgb(80, 180, 180);
+    font-weight: bold;
+}
+button{
+    text-align: center;
+
+}
+.container{
+    text-align: center;
+    border-top: 130px;
+}
+.button-description{
+    margin: none;
+    padding: 10px 20px;
 }
