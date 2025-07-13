@@ -20,12 +20,13 @@ font-size: 34px;
 header{
     background-image: url("../images/Assets/Hero-bg.png");
         background-position: left top, bottom right;
+        height: 520px;
 }
 .section-title{
     
-    color: rgb(80, 180, 180);
+    color:#252432;
     font-weight: bold;
-    font-size:35px;
+    font-size:65px;
 }
 button{
     text-align: center;
