@@ -1,3 +1,13 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .primary-button{
     background-color: #4E47FF;
     border-radius: 5px;
@@ -81,4 +91,136 @@ button{
 }
 .banner-content{
 max-width: 400px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin:0px auto;
+}
+.about{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 20px;
+
+}
+.image-3{
+    text-align: center;
+    border-radius: 48px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.image-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.users{
+    text-align: center;
+    background-color:#bebece;
+    margin-top: 50px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 07px;
+    
+} 
+.about-users{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: #4E47FF;
+}
+    .total item heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.item-heading{
+    
+    font-weight: bold;
+    font-weight: 80px;
+    color: #4E47FF;
+}
+.item-users{
+    font-size:20px ;
+    color:rgb(180, 172, 160)
+
+}
+
+/* User review section */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6ff;
+}
+
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer strong {
+  font-size: 14px;
+  color: #444;
+}
+
+.reviewer span {
+  font-size: 12px;
+  color: #999;
 }
