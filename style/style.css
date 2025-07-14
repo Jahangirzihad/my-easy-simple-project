@@ -5,7 +5,7 @@ body {
   color: #1a1a1a;
 }
 
-/* Global Button Style */
+/*  Button Style */
 .btn {
   background-color: #5a3ff2;
   color: white;
@@ -22,6 +22,7 @@ body {
 }
 
 /* Header and Hero */
+
 .hero {
   background: url('../images/Assets/Hero-bg.png') repeat;
   padding: 2rem;
@@ -47,6 +48,7 @@ body {
 }
 
 /* See It in Action */
+
 .see-action {
   display: flex;
   justify-content: space-between;
@@ -66,6 +68,7 @@ body {
 }
 
 /* Stats */
+
 .stats {
   background-color: #e8e9ff;
   padding: 3rem 1rem;
@@ -85,6 +88,7 @@ body {
 }
 
 /* Testimonials */
+
 .testimonials {
   padding: 3rem 5%;
   text-align: center;
@@ -97,7 +101,6 @@ body {
   margin-left: 5px;
   margin-right: 10px;
   flex-wrap: wrap;
- 
 
   
 }
@@ -119,6 +122,7 @@ body {
 }
 
 /* CTA */
+
 .cta {
   text-align: center;
   padding: 1rem 5rem;
@@ -131,6 +135,7 @@ body {
 }
 
 /* Contact Section */
+
 .contact {
   display: flex;
   justify-content: space-around;
