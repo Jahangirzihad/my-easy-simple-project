@@ -224,3 +224,62 @@ body {
   font-size: 12px;
   color: #999;
 }
+
+/* get in touch section */
+
+main.contact {
+  margin: 0;
+  background-color: #f5f7ff;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #f5f7ff;
+  flex-wrap: wrap;
+}
+
+.contact-text h1 {
+  font-size: 48px;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  background-color: #4b4bff;
+  color: #fff;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #3737d4;
+}
