@@ -283,3 +283,53 @@ main.contact {
 .contact-form button:hover {
   background-color: #3737d4;
 }
+/* Fotter section */
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body1 {
+  background-color: #ffffff;
+  color: #6c6c6c;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.logo-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 800;
+  color: #4b4bff;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #999;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #4b4bff;
+}
